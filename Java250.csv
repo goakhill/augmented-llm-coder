@@ -7015,3 +7015,1685 @@ Print  d ,  r  and  f  separated by a space in a line. For  f , the output shoul
  
  
  "
+200,p02835.html,"
+ Problem Statement Given are three integers  A_1 ,  A_2 , and  A_3 . 
+ If  A_1+A_2+A_3  is greater than or equal to  22 , print  bust ; otherwise, print  win . 
+ 
+ 
+ 
+ 
+ Constraints 
+ 1 \leq A_i \leq 13 \ \ (i=1,2,3) 
+ All values in input are integers. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ A_1   A_2   A_3 
+ 
+ 
+ 
+ 
+ 
+ Output If  A_1+A_2+A_3  is greater than or equal to  22 , print  bust ; otherwise, print  win . 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+201,p02832.html,"
+ Problem Statement We have  N  bricks arranged in a row from left to right. 
+ The  i -th brick from the left  (1 \leq i \leq N)  has an integer  a_i  written on it. 
+ Among them, you can break at most  N-1  bricks of your choice. 
+ Let us say there are  K  bricks remaining. Snuke will be satisfied if, for each integer  i   (1 \leq i \leq K) , the  i -th of those brick from the left has the integer  i  written on it. 
+ Find the minimum number of bricks you need to break to satisfy Snuke's desire. If his desire is unsatisfiable, print  -1  instead. 
+ 
+ 
+ 
+ 
+ Constraints 
+ All values in input are integers. 
+ 1 \leq N \leq 200000 
+ 1 \leq a_i \leq N 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ N 
+ a_1   a_2   ...   a_N 
+ 
+ 
+ 
+ 
+ 
+ Output Print the minimum number of bricks that need to be broken to satisfy Snuke's desire, or print  -1  if his desire is unsatisfiable. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+202,p04012.html,"
+ Problem Statement Let  w  be a string consisting of lowercase letters.
+We will call  w   beautiful  if the following condition is satisfied: 
+ 
+ Each lowercase letter of the English alphabet occurs even number of times in  w . 
+ 
+ You are given the string  w . Determine if  w  is beautiful. 
+ 
+ 
+ 
+ 
+ Constraints 
+ 1 \leq |w| \leq 100 
+ w  consists of lowercase letters ( a - z ). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input The input is given from Standard Input in the following format: 
+ w 
+ 
+ 
+ 
+ 
+ 
+ Output Print  Yes  if  w  is beautiful. Print  No  otherwise. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+203,p02719.html,"
+ Problem Statement Given any integer  x , Aoki can do the operation below. 
+ Operation: Replace  x  with the absolute difference of  x  and  K . 
+ You are given the initial value of an integer  N . Find the minimum possible value taken by  N  after Aoki does the operation zero or more times. 
+ 
+ 
+ 
+ 
+ Constraints 
+ 0 ≤ N ≤ 10^{18} 
+ 1 ≤ K ≤ 10^{18} 
+ All values in input are integers. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ N   K 
+ 
+ 
+ 
+ 
+ 
+ Output Print the minimum possible value taken by  N  after Aoki does the operation zero or more times. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+204,p02981.html,"
+ Problem Statement N  of us are going on a trip, by train or taxi. 
+ The train will cost each of us  A  yen (the currency of Japan). 
+ The taxi will cost us a total of  B  yen. 
+ How much is our minimum total travel expense? 
+ 
+ 
+ 
+ 
+ Constraints 
+ All values in input are integers. 
+ 1 \leq N \leq 20 
+ 1 \leq A \leq 50 
+ 1 \leq B \leq 50 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ N   A   B 
+ 
+ 
+ 
+ 
+ 
+ Output Print an integer representing the minimum total travel expense. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+205,p02570.html,"
+ Problem Statement Takahashi is meeting up with Aoki. 
+ They have planned to meet at a place that is  D  meters away from Takahashi's house in  T  minutes from now. 
+ Takahashi will leave his house now and go straight to the place at a speed of  S  meters per minute. 
+ Will he arrive in time? 
+ 
+ 
+ 
+ 
+ Constraints 
+ 1 \leq D \leq 10000 
+ 1 \leq T \leq 10000 
+ 1 \leq S \leq 10000 
+ All values in input are integers. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ D   T   S 
+ 
+ 
+ 
+ 
+ 
+ Output If Takahashi will reach the place in time, print  Yes ; otherwise, print  No . 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+206,p02612.html,"
+ Problem Statement We will buy a product for  N  yen (the currency of Japan) at a shop. 
+ If we use only  1000 -yen bills to pay the price, how much change will we receive? 
+ Assume we use the minimum number of bills required. 
+ 
+ 
+ 
+ 
+ Constraints 
+ 1 \leq N \leq 10000 
+ N  is an integer. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ N 
+ 
+ 
+ 
+ 
+ 
+ Output Print the amount of change as an integer. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+207,p02982.html,"
+ Problem Statement There are  N  points in a  D -dimensional space. 
+ The coordinates of the  i -th point are  (X_{i1}, X_{i2}, ..., X_{iD}) . 
+ The distance between two points with coordinates  (y_1, y_2, ..., y_D)  and  (z_1, z_2, ..., z_D)  is  \sqrt{(y_1 - z_1)^2 + (y_2 - z_2)^2 + ... + (y_D - z_D)^2} . 
+ How many pairs  (i, j)   (i < j)  are there such that the distance between the  i -th point and the  j -th point is an integer? 
+ 
+ 
+ 
+ 
+ Constraints 
+ All values in input are integers. 
+ 2 \leq N \leq 10 
+ 1 \leq D \leq 10 
+ -20 \leq X_{ij} \leq 20 
+ No two given points have the same coordinates. That is, if  i \neq j , there exists  k  such that  X_{ik} \neq X_{jk} . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ N   D 
+ X_{11}   X_{12}   ...   X_{1D} 
+ X_{21}   X_{22}   ...   X_{2D} 
+ \vdots 
+ X_{N1}   X_{N2}   ...   X_{ND} 
+ 
+ 
+ 
+ 
+ 
+ Output Print the number of pairs  (i, j)   (i < j)  such that the distance between the  i -th point and the  j -th point is an integer. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+208,p03308.html,"
+ Problem Statement You are given an integer sequence  A  of length  N .
+Find the maximum absolute difference of two elements (with different indices) in  A . 
+ 
+ 
+ 
+ 
+ Constraints 
+ 2 \leq N \leq 100 
+ 1 \leq A_i \leq 10^9 
+ All values in input are integers. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ N 
+ A_1   A_2   ...   A_N 
+ 
+ 
+ 
+ 
+ 
+ Output Print the maximum absolute difference of two elements (with different indices) in  A . 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+209,p02396.html,"
+ Print Test Cases 
+ 
+In the online judge system, a judge file may include multiple datasets to check whether the submitted program outputs a correct answer for each test case. This task is to practice solving a problem with multiple datasets.
+ 
+ 
+Write a program which reads an integer  x  and print it as is. Note that multiple datasets are given for this problem.
+ 
+ Input 
+ 
+The input consists of multiple datasets. Each dataset consists of an integer  x  in a line.
+ 
+ 
+The input ends with an integer 0. You program should not process (print) for this terminal symbol.
+ 
+ Output 
+ 
+For each dataset, print  x  in the following format:
+ 
+ 
+Case i: x
+ 
+ 
+where  i  is the case number which starts with 1. Put a single space between ""Case"" and  i . Also, put a single space between ':' and  x .
+   
+ Constraints 
+ 
+ 1 ≤  x  ≤ 10000 
+ The number of datasets ≤ 10000 
+ 
+ "
+210,p02953.html,"
+ Problem Statement There are  N  squares arranged in a row from left to right. The height of the  i -th square from the left is  H_i . 
+ For each square, you will perform either of the following operations once: 
+ 
+ Decrease the height of the square by  1 . 
+ Do nothing. 
+ 
+ Determine if it is possible to perform the operations so that the heights of the squares are non-decreasing from left to right. 
+ 
+ 
+ 
+ 
+ Constraints 
+ All values in input are integers. 
+ 1 \leq N \leq 10^5 
+ 1 \leq H_i \leq 10^9 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ N 
+ H_1   H_2   ...   H_N 
+ 
+ 
+ 
+ 
+ 
+ Output If it is possible to perform the operations so that the heights of the squares are non-decreasing from left to right, print  Yes ; otherwise, print  No . 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+211,p02754.html,"
+ Problem Statement Takahashi has many red balls and blue balls. Now, he will place them in a row. 
+ Initially, there is no ball placed. 
+ Takahashi, who is very patient, will do the following operation  10^{100}  times: 
+ 
+ Place  A  blue balls at the end of the row of balls already placed. Then, place  B  red balls at the end of the row. 
+ 
+ How many blue balls will be there among the first  N  balls in the row of balls made this way? 
+ 
+ 
+ 
+ 
+ Constraints 
+ 1 \leq N \leq 10^{18} 
+ A, B \geq 0 
+ 0 < A + B \leq 10^{18} 
+ All values in input are integers. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ N   A   B 
+ 
+ 
+ 
+ 
+ 
+ Output Print the number of blue balls that will be there among the first  N  balls in the row of balls. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+212,p03325.html,"
+ Problem Statement 
+ As AtCoder Beginner Contest 100 is taking place, the office of AtCoder, Inc. is decorated with a sequence of length  N ,  a =  { a_1, a_2, a_3, ..., a_N }. 
+Snuke, an employee, would like to play with this sequence. 
+ Specifically, he would like to repeat the following operation as many times as possible: 
+ For every  i  satisfying  1 \leq i \leq N , perform one of the following: ""divide  a_i  by  2 "" and ""multiply  a_i  by  3 "".  
+Here, choosing ""multiply  a_i  by  3 "" for every  i  is not allowed, and the value of  a_i  after the operation must be an integer.
+ 
+ At most how many operations can be performed? 
+ 
+ 
+ 
+ 
+ Constraints 
+ 
+ N  is an integer between  1  and  10 \ 000  (inclusive). 
+ a_i  is an integer between  1  and  1 \ 000 \ 000 \ 000  (inclusive). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input 
+ Input is given from Standard Input in the following format: 
+ N 
+ a_1   a_2   a_3   ...   a_N 
+ 
+ 
+ 
+ 
+ 
+ Output 
+ Print the maximum number of operations that Snuke can perform. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+213,p02682.html,"
+ Problem Statement We have  A  cards, each of which has an integer  1  written on it. Similarly, we also have  B  cards with  0 s and  C  cards with  -1 s. 
+ We will pick up  K  among these cards. What is the maximum possible sum of the numbers written on the cards chosen? 
+ 
+ 
+ 
+ 
+ Constraints 
+ All values in input are integers. 
+ 0 \leq A, B, C 
+ 1 \leq K \leq A + B + C \leq 2 \times 10^9 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ A   B   C   K 
+ 
+ 
+ 
+ 
+ 
+ Output Print the maximum possible sum of the numbers written on the cards chosen. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+214,p02393.html,"
+ Sorting Three Numbers 
+ 
+  Write a program which reads three integers, and prints them in ascending order.
+ 
+ Input 
+ 
+  Three integers separated by a single space are given in a line.
+ 
+ Output 
+ 
+  Print the given integers in ascending order in a line. Put a single space between two integers.
+ 
+ Constraints 
+ 
+  1 ≤ the three integers ≤ 10000 
+ 
+ "
+215,p02639.html,"
+ Problem Statement We have five variables  x_1, x_2, x_3, x_4,  and  x_5 . 
+ The variable  x_i  was initially assigned a value of  i . 
+ Snuke chose one of these variables and assigned it  0 . 
+ You are given the values of the five variables after this assignment. 
+ Find out which variable Snuke assigned  0 . 
+ 
+ 
+ 
+ 
+ Constraints 
+ The values of  x_1, x_2, x_3, x_4,  and  x_5  given as input are a possible outcome of the assignment by Snuke. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ x_1   x_2   x_3   x_4   x_5 
+ 
+ 
+ 
+ 
+ 
+ Output If the variable Snuke assigned  0  was  x_i , print the integer  i . 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+216,p00002.html,"
+ Digit Number 
+ 
+Write a program which computes the digit number of sum of two integers  a  and  b .
+ 
+ Input 
+ 
+There are several test cases. Each test case consists of two non-negative integers  a  and  b  which are separeted by a space in a line. The input terminates with EOF.
+ 
+ Constraints 
+ 
+ 0 ≤  a ,  b  ≤ 1,000,000 
+ The number of datasets ≤ 200 
+ 
+ Output 
+ 
+Print the number of digits of  a  +  b  for each data set.
+ 
+ "
+217,p03316.html,"
+ Problem Statement Let  S(n)  denote the sum of the digits in the decimal notation of  n .
+For example,  S(101) = 1 + 0 + 1 = 2 . 
+ Given an integer  N , determine if  S(N)  divides  N . 
+ 
+ 
+ 
+ 
+ Constraints 
+ 1 \leq N \leq 10^9 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ N 
+ 
+ 
+ 
+ 
+ 
+ Output If  S(N)  divides  N , print  Yes ; if it does not, print  No . 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+218,p02712.html,"
+ Problem Statement Let us define the  FizzBuzz sequence   a_1,a_2,...  as follows: 
+ 
+ If both  3  and  5  divides  i ,  a_i=\mbox{FizzBuzz} . 
+ If the above does not hold but  3  divides  i ,  a_i=\mbox{Fizz} . 
+ If none of the above holds but  5  divides  i ,  a_i=\mbox{Buzz} . 
+ If none of the above holds,  a_i=i . 
+ 
+ Find the sum of all numbers among the first  N  terms of the FizzBuzz sequence. 
+ 
+ 
+ 
+ 
+ Constraints 
+ 1 \leq N \leq 10^6 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ N 
+ 
+ 
+ 
+ 
+ 
+ Output Print the sum of all numbers among the first  N  terms of the FizzBuzz sequence. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+219,p03324.html,"
+ Problem Statement 
+ Today, the memorable AtCoder Beginner Contest 100 takes place. On this occasion, Takahashi would like to give an integer to Ringo. 
+As the name of the contest is AtCoder Beginner Contest 100, Ringo would be happy if he is given a positive integer that can be divided by  100   exactly   D  times. 
+ Find the  N -th smallest integer that would make Ringo happy. 
+ 
+ 
+ 
+ 
+ Constraints 
+ 
+ D  is  0 ,  1  or  2 . 
+ N  is an integer between  1  and  100  (inclusive). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input 
+ Input is given from Standard Input in the following format: 
+ D   N 
+ 
+ 
+ 
+ 
+ 
+ Output 
+ Print the  N -th smallest integer that can be divided by  100  exactly  D  times. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+220,p02394.html,"
+ 
+ 
+ Circle in a Rectangle 
+ 
+  Write a program which reads a rectangle and a circle, and determines whether the circle is arranged inside the rectangle. As shown in the following figures, the upper right coordinate $(W, H)$ of the rectangle and the central coordinate $(x, y)$ and radius $r$ of the circle are given.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input 
+ 
+  Five integers $W$, $H$, $x$, $y$ and $r$ separated by a single space are given in a line.
+ 
+ Output 
+ 
+  Print ""Yes"" if the circle is placed inside the rectangle, otherwise ""No"" in a line.
+ 
+ Constraints 
+ 
+ $ -100  \leq x, y \leq 100$ 
+ $ 0  < W, H, r \leq 100$ 
+ 
+ "
+221,p02547.html,"
+ Problem Statement Tak performed the following action  N  times: rolling two dice.
+The result of the  i -th roll is  D_{i,1}  and  D_{i,2} . 
+ Check if doublets occurred at least three times in a row.
+Specifically, check if there exists at lease one  i  such that  D_{i,1}=D_{i,2} ,  D_{i+1,1}=D_{i+1,2}  and  D_{i+2,1}=D_{i+2,2}  hold. 
+ 
+ 
+ 
+ 
+ Constraints 
+ 3 \leq N \leq 100 
+ 1\leq D_{i,j} \leq 6 
+ All values in input are integers. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ N 
+ D_{1,1}   D_{1,2} 
+ \vdots 
+ D_{N,1}   D_{N,2} 
+ 
+ 
+ 
+ 
+ 
+ Output Print  Yes  if doublets occurred at least three times in a row. Print  No  otherwise. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+222,p03086.html,"
+ Problem Statement You are given a string  S  consisting of uppercase English letters. Find the length of the longest  ACGT string  that is a substring (see Notes) of  S . 
+ Here, a ACGT string is a string that contains no characters other than  A ,  C ,  G  and  T . 
+ 
+ 
+ 
+ 
+ Notes A substring of a string  T  is a string obtained by removing zero or more characters from the beginning and the end of  T . 
+ For example, the substrings of  ATCODER  include  TCO ,  AT ,  CODER ,  ATCODER  and   (the empty string), but not  AC . 
+ 
+ 
+ 
+ 
+ Constraints 
+ S  is a string of length between  1  and  10  (inclusive). 
+ Each character in  S  is an uppercase English letter. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ S 
+ 
+ 
+ 
+ 
+ 
+ Output Print the length of the longest  ACGT string  that is a substring of  S . 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+223,p03035.html,"
+ Problem Statement Takahashi, who is  A  years old, is riding a Ferris wheel. 
+ It costs  B  yen ( B  is an even number) to ride the Ferris wheel if you are  13  years old or older, but children between  6  and  12  years old (inclusive) can ride it for half the cost, and children who are  5  years old or younger are free of charge. (Yen is the currency of Japan.) 
+ Find the cost of the Ferris wheel for Takahashi. 
+ 
+ 
+ 
+ 
+ Constraints 
+ 0 ≤ A ≤ 100 
+ 2 ≤ B ≤ 1000 
+ B  is an even number. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ A   B 
+ 
+ 
+ 
+ 
+ 
+ Output Print the cost of the Ferris wheel for Takahashi. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+224,p03695.html,"
+ Problem Statement In AtCoder, a person who has participated in a contest receives a  color , which corresponds to the person's rating as follows:   
+ 
+ Rating  1 - 399  : gray 
+ Rating  400 - 799  : brown 
+ Rating  800 - 1199  : green 
+ Rating  1200 - 1599  : cyan 
+ Rating  1600 - 1999  : blue 
+ Rating  2000 - 2399  : yellow 
+ Rating  2400 - 2799  : orange 
+ Rating  2800 - 3199  : red 
+ 
+ Other than the above, a person whose rating is  3200  or higher can freely pick his/her color, which can be one of the eight colors above or not. 
+Currently, there are  N  users who have participated in a contest in AtCoder, and the  i -th user has a rating of  a_i . 
+Find the minimum and maximum possible numbers of different colors of the users.   
+ 
+ 
+ 
+ 
+ Constraints 
+ 1 ≤ N ≤ 100 
+ 1 ≤ a_i ≤ 4800 
+ a_i  is an integer. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ N 
+ a_1   a_2   ...   a_N 
+ 
+ 
+ 
+ 
+ 
+ Output Print the minimum possible number of different colors of the users, and the maximum possible number of different colors, with a space in between.   
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+225,p03126.html,"
+ Problem Statement Katsusando loves omelette rice. 
+ Besides, he loves crème brûlée, tenderloin steak and so on, and believes that these foods are all loved by everyone. 
+ To prove that hypothesis, he conducted a survey on  M  kinds of foods and asked  N  people whether they like these foods or not. 
+ The  i -th person answered that he/she only likes the  A_{i1} -th,  A_{i2} -th,  ... ,  A_{iK_i} -th food. 
+ Find the number of the foods liked by all the  N  people. 
+ 
+ 
+ 
+ 
+ Constraints 
+ All values in input are integers. 
+ 1 \leq N, M \leq 30 
+ 1 \leq K_i \leq M 
+ 1 \leq A_{ij} \leq M 
+ For each  i   (1 \leq i \leq N) ,  A_{i1}, A_{i2}, ..., A_{iK_i}  are distinct. 
+ 
+ 
+ 
+ 
+ 
+ Constraints Input is given from Standard Input in the following format: 
+ N   M 
+ K_1   A_{11}   A_{12}   ...   A_{1K_1} 
+ K_2   A_{21}   A_{22}   ...   A_{2K_2} 
+ : 
+ K_N   A_{N1}   A_{N2}   ...   A_{NK_N} 
+ 
+ 
+ 
+ 
+ 
+ Output Print the number of the foods liked by all the  N  people. 
+ 
+ 
+ 
+ 
+ 
+ "
+226,p02725.html,"
+ Problem Statement There is a circular pond with a perimeter of  K  meters, and  N  houses around them. 
+ The  i -th house is built at a distance of  A_i  meters from the northmost point of the pond, measured clockwise around the pond. 
+ When traveling between these houses, you can only go around the pond. 
+ Find the minimum distance that needs to be traveled when you start at one of the houses and visit all the  N  houses. 
+ 
+ 
+ 
+ 
+ Constraints 
+ 2 \leq K \leq 10^6 
+ 2 \leq N \leq 2 \times 10^5 
+ 0 \leq A_1 < ... < A_N < K 
+ All values in input are integers. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ K   N 
+ A_1   A_2   ...   A_N 
+ 
+ 
+ 
+ 
+ 
+ Output Print the minimum distance that needs to be traveled when you start at one of the houses and visit all the  N  houses. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+227,p02711.html,"
+ Problem Statement Given is a three-digit integer  N . Does  N  contain the digit  7 ? 
+ If so, print  Yes ; otherwise, print  No . 
+ 
+ 
+ 
+ 
+ Constraints 
+ 100 \leq N \leq 999 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ N 
+ 
+ 
+ 
+ 
+ 
+ Output If  N  contains the digit  7 , print  Yes ; otherwise, print  No . 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+228,p02700.html,"
+ Problem Statement Takahashi and Aoki will have a battle using their monsters. 
+ The health and strength of Takahashi's monster are  A  and  B , respectively, and those of Aoki's monster are  C  and  D , respectively. 
+ The two monsters will take turns attacking, in the order Takahashi's, Aoki's, Takahashi's, Aoki's, ...
+Here, an attack decreases the opponent's health by the value equal to the attacker's strength.
+The monsters keep attacking until the health of one monster becomes  0  or below. The person with the monster whose health becomes  0  or below loses, and the other person wins. 
+ If Takahashi will win, print  Yes ; if he will lose, print  No . 
+ 
+ 
+ 
+ 
+ Constraints 
+ 1 \leq A,B,C,D \leq 100 
+ All values in input are integers. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ A   B   C   D 
+ 
+ 
+ 
+ 
+ 
+ Output If Takahashi will win, print  Yes ; if he will lose, print  No . 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+229,p02801.html,"
+ Problem Statement Given is a lowercase English letter  C  that is not  z . Print the letter that follows  C  in alphabetical order. 
+ 
+ 
+ 
+ 
+ Constraints 
+ C  is a lowercase English letter that is not  z . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ C 
+ 
+ 
+ 
+ 
+ 
+ Output Print the letter that follows  C  in alphabetical order. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+230,p02848.html,"
+ Problem Statement We have a string  S  consisting of uppercase English letters. Additionally, an integer  N  will be given. 
+ Shift each character of  S  by  N  in alphabetical order (see below), and print the resulting string. 
+ We assume that  A  follows  Z . For example, shifting  A  by  2  results in  C  ( A   \to   B   \to   C ), and shifting  Y  by  3  results in  B  ( Y   \to   Z   \to   A   \to   B ). 
+ 
+ 
+ 
+ 
+ Constraints 
+ 0 \leq N \leq 26 
+ 1 \leq |S| \leq 10^4 
+ S  consists of uppercase English letters. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ N 
+ S 
+ 
+ 
+ 
+ 
+ 
+ Output Print the string resulting from shifting each character of  S  by  N  in alphabetical order. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+231,p02921.html,"
+ Problem Statement You will be given a string  S  of length  3  representing the weather forecast for three days in the past. 
+ The  i -th character  (1 \leq i \leq 3)  of  S  represents the forecast for the  i -th day.  S ,  C , and  R  stand for sunny, cloudy, and rainy, respectively. 
+ You will also be given a string  T  of length  3  representing the actual weather on those three days. 
+ The  i -th character  (1 \leq i \leq 3)  of  S  represents the actual weather on the  i -th day.  S ,  C , and  R  stand for sunny, cloudy, and rainy, respectively. 
+ Print the number of days for which the forecast was correct. 
+ 
+ 
+ 
+ 
+ Constraints 
+ S  and  T  are strings of length  3  each. 
+ S  and  T  consist of  S ,  C , and  R . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ S 
+ T 
+ 
+ 
+ 
+ 
+ 
+ Output Print the number of days for which the forecast was correct. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+232,p02613.html,"
+ Problem Statement Takahashi is participating in a programming contest called AXC002, and he has just submitted his code to Problem A. 
+ The problem has  N  test cases. 
+ For each test case  i  ( 1\leq i \leq N ), you are given a string  S_i  representing the verdict for that test case. Find the numbers of test cases for which the verdict is  AC ,  WA ,  TLE , and  RE , respectively. 
+ See the Output section for the output format. 
+ 
+ 
+ 
+ 
+ Constraints 
+ 1 \leq N \leq 10^5 
+ S_i  is  AC ,  WA ,  TLE , or  RE . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ N 
+ S_1 
+ \vdots 
+ S_N 
+ 
+ 
+ 
+ 
+ 
+ Output Let  C_0 ,  C_1 ,  C_2 , and  C_3  be the numbers of test cases for which the verdict is  AC ,  WA ,  TLE , and  RE , respectively. Print the following: 
+ AC x  C_0 
+WA x  C_1 
+TLE x  C_2 
+RE x  C_3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+233,p03434.html,"
+ Problem Statement 
+ We have  N  cards. A number  a_i  is written on the  i -th card. 
+Alice and Bob will play a game using these cards. In this game, Alice and Bob alternately take one card. Alice goes first. 
+The game ends when all the cards are taken by the two players, and the score of each player is the sum of the numbers written on the cards he/she has taken. When both players take the optimal strategy to maximize their scores, find Alice's score minus Bob's score. 
+ 
+ 
+ 
+ 
+ Constraints 
+ 
+ N  is an integer between  1  and  100  (inclusive). 
+ a_i \ (1 \leq i \leq N)  is an integer between  1  and  100  (inclusive). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input 
+ Input is given from Standard Input in the following format:   
+ N 
+ a_1   a_2   a_3   ...   a_N 
+ 
+ 
+ 
+ 
+ 
+ Output 
+ Print Alice's score minus Bob's score when both players take the optimal strategy to maximize their scores. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+234,p02951.html,"
+ Problem Statement We have two bottles for holding water. 
+ Bottle  1  can hold up to  A  milliliters of water, and now it contains  B  milliliters of water. 
+ Bottle  2  contains  C  milliliters of water. 
+ We will transfer water from Bottle  2  to Bottle  1  as much as possible. 
+ How much amount of water will remain in Bottle  2 ? 
+ 
+ 
+ 
+ 
+ Constraints 
+ All values in input are integers. 
+ 1 \leq B \leq A \leq 20 
+ 1 \leq C \leq 20 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ A   B   C 
+ 
+ 
+ 
+ 
+ 
+ Output Print the integer representing the amount of water, in milliliters, that will remain in Bottle  2 . 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+235,p02577.html,"
+ Problem Statement An integer  N  is a multiple of  9  if and only if the sum of the digits in the decimal representation of  N  is a multiple of  9 . 
+ Determine whether  N  is a multiple of  9 . 
+ 
+ 
+ 
+ 
+ Constraints 
+ 0 \leq N < 10^{200000} 
+ N  is an integer. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ N 
+ 
+ 
+ 
+ 
+ 
+ Output If  N  is a multiple of  9 , print  Yes ; otherwise, print  No . 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+236,p02759.html,"
+ Problem Statement Takahashi wants to print a document with  N  pages double-sided, where two pages of data can be printed on one sheet of paper. 
+ At least how many sheets of paper does he need? 
+ 
+ 
+ 
+ 
+ Constraints 
+ N  is an integer. 
+ 1 \leq N \leq 100 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ N 
+ 
+ 
+ 
+ 
+ 
+ Output Print the answer. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+237,p02412.html,"
+ How many ways? 
+ 
+  Write a program which identifies the number of combinations of three integers which satisfy the following conditions:
+ 
+ 
+ You should select three distinct integers from 1 to  n . 
+ A total sum of the three integers is  x . 
+ 
+ 
+  For example, there are two combinations for  n  = 5 and  x  = 9.
+ 
+ 
+ 1 + 3 + 5 = 9 
+ 2 + 3 + 4 = 9 
+ 
+ Input 
+ 
+  The input consists of multiple datasets. For each dataset, two integers  n  and  x  are given in a line.
+ 
+ 
+  The input ends with two zeros for  n  and  x  respectively. Your program should not process for these terminal symbols.
+ 
+ Constraints 
+ 
+ 3 ≤  n  ≤ 100 
+ 0 ≤  x  ≤ 300 
+ 
+ Output 
+ 
+  For each dataset, print the number of combinations in a line.
+ 
+ "
+238,p04043.html,"
+ Problem Statement Iroha loves  Haiku . Haiku is a short form of Japanese poetry. A Haiku consists of three phrases with  5 ,  7  and  5  syllables, in this order. 
+ To create a Haiku, Iroha has come up with three different phrases. These phrases have  A ,  B  and  C  syllables, respectively. Determine whether she can construct a Haiku by using each of the phrases once, in some order. 
+ 
+ 
+ 
+ 
+ Constraints 
+ 1≦A,B,C≦10 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input The input is given from Standard Input in the following format: 
+ A   B   C 
+ 
+ 
+ 
+ 
+ 
+ Output If it is possible to construct a Haiku by using each of the phrases once, print  YES  (case-sensitive). Otherwise, print  NO . 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+239,p02812.html,"
+ Problem Statement We have a string  S  of length  N  consisting of uppercase English letters. 
+ How many times does  ABC  occur in  S  as contiguous subsequences (see "
+240,p03632.html,"
+ Problem Statement Alice and Bob are controlling a robot. They each have one switch that controls the robot. 
+Alice started holding down her button  A  second after the start-up of the robot, and released her button  B  second after the start-up. 
+Bob started holding down his button  C  second after the start-up, and released his button  D  second after the start-up. 
+For how many seconds both Alice and Bob were holding down their buttons? 
+ 
+ 
+ 
+ 
+ Constraints 
+ 0≤A<B≤100 
+ 0≤C<D≤100 
+ All input values are integers. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format:   
+ A   B   C   D 
+ 
+ 
+ 
+ 
+ 
+ Output Print the length of the duration (in seconds) in which both Alice and Bob were holding down their buttons. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+241,p02258.html,"
+ 
+ 
+ Maximum Profit 
+ 
+You can obtain profits from foreign exchange margin transactions. For example,  if you buy 1000 dollar at a rate of 100 yen per dollar, and sell them at a rate of 108 yen per dollar, you can obtain (108 - 100) × 1000 = 8000 yen.
+ 
+ 
+  Write a program which reads values of a currency $R_t$ at a certain time $t$ ($t = 0, 1, 2, ... n-1$), and reports the maximum value of $R_j - R_i$ where $j > i$ .
+ 
+ Input 
+ 
+The first line contains an integer $n$. In the following $n$ lines, $R_t$ ($t = 0, 1, 2, ... n-1$) are given in order.
+ 
+ Output 
+ 
+Print the maximum value in a line.
+ 
+ Constraints 
+ 
+ $2 \leq n \leq 200,000$ 
+ $1 \leq R_t \leq 10^9$ 
+ 
+ "
+242,p02881.html,"
+ Problem Statement Takahashi is standing on a multiplication table with infinitely many rows and columns. 
+ The square  (i,j)  contains the integer  i \times j . Initially, Takahashi is standing at  (1,1) . 
+ In one move, he can move from  (i,j)  to either  (i+1,j)  or  (i,j+1) . 
+ Given an integer  N , find the minimum number of moves needed to reach a square that contains  N . 
+ 
+ 
+ 
+ 
+ Constraints 
+ 2 \leq N \leq 10^{12} 
+ N  is an integer. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ N 
+ 
+ 
+ 
+ 
+ 
+ Output Print the minimum number of moves needed to reach a square that contains the integer  N . 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+243,p02659.html,"
+ Problem Statement Compute  A \times B , truncate its fractional part, and print the result as an integer. 
+ 
+ 
+ 
+ 
+ Constraints 
+ 0 \leq A \leq 10^{15} 
+ 0 \leq B < 10 
+ A  is an integer. 
+ B  is a number with two digits after the decimal point. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ A   B 
+ 
+ 
+ 
+ 
+ 
+ Output Print the answer as an integer. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+244,p00011.html,"
+ Drawing Lots 
+ 
+Let's play Amidakuji. 
+ 
+ 
+In the following example, there are five vertical lines and four horizontal lines. The horizontal lines can intersect (jump across) the vertical lines.
+ 
+ 
+ 
+ 
+ 
+ 
+In the starting points (top of the figure), numbers are assigned to vertical lines in ascending order from left to right. At the first step, 2 and 4 are swaped by the first horizontal line which connects second and fourth vertical lines (we call this operation (2, 4)). Likewise, we perform (3, 5), (1, 2) and (3, 4), then obtain ""4 1 2 5 3"" in the bottom.
+ 
+ 
+Your task is to write a program which reads the number of vertical lines  w  and configurations of horizontal lines and prints the final state of the Amidakuji. In the starting pints, numbers 1, 2, 3, ...,  w  are assigne to the vertical lines from left to right.
+ 
+ Input 
+ 
+ w 
+ n 
+ a 1 , b 1 
+ a 2 , b 2 
+.
+.
+ a n , b n 
+ 
+ 
+ w  ( w  ≤ 30) is the number of vertical lines.  n  ( n  ≤ 30) is the number of horizontal lines. A pair of two integers  a i  and  b i  delimited by a comma represents the  i -th horizontal line.
+ 
+ Output 
+ 
+The number which should be under the 1st (leftmost) vertical line 
+The number which should be under the 2nd vertical line 
+: 
+The number which should be under the  w -th vertical line 
+ 
+ "
+245,p02388.html,"
+ X Cubic 
+ 
+Write a program which calculates the cube of a given integer  x .
+ 
+ Input 
+ 
+An integer  x  is given in a line.
+ 
+ Output 
+ 
+Print the cube of  x  in a line.
+ 
+ Constraints 
+ 
+  1 ≤  x  ≤ 100 
+ 
+ "
+246,p03478.html,"
+ Problem Statement Find the sum of the integers between  1  and  N  (inclusive), whose sum of digits written in base  10  is between  A  and  B  (inclusive). 
+ 
+ 
+ 
+ 
+ Constraints 
+ 1 \leq N \leq 10^4 
+ 1 \leq A \leq B \leq 36 
+ All input values are integers. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ N   A   B 
+ 
+ 
+ 
+ 
+ 
+ Output Print the sum of the integers between  1  and  N  (inclusive), whose sum of digits written in base  10  is between  A  and  B  (inclusive). 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+247,p03281.html,"
+ Problem Statement 
+ The number  105  is quite special - it is odd but still it has eight divisors.
+Now, your task is this: how many odd numbers with exactly eight positive divisors are there between  1  and  N  (inclusive)? 
+ 
+ 
+ 
+ 
+ Constraints 
+ 
+ N  is an integer between  1  and  200  (inclusive). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input 
+ Input is given from Standard Input in the following format: 
+ N 
+ 
+ 
+ 
+ 
+ 
+ Output 
+ Print the count. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+248,p03087.html,"
+ Problem Statement You are given a string  S  of length  N  consisting of  A ,  C ,  G  and  T . Answer the following  Q  queries: 
+ 
+ Query  i  ( 1 \leq i \leq Q ): You will be given integers  l_i  and  r_i  ( 1 \leq l_i < r_i \leq N ). Consider the substring of  S  starting at index  l_i  and ending at index  r_i  (both inclusive). In this string, how many times does  AC  occurs as a substring? 
+ 
+ 
+ 
+ 
+ 
+ Notes A substring of a string  T  is a string obtained by removing zero or more characters from the beginning and the end of  T . 
+ For example, the substrings of  ATCODER  include  TCO ,  AT ,  CODER ,  ATCODER  and   (the empty string), but not  AC . 
+ 
+ 
+ 
+ 
+ Constraints 
+ 2 \leq N \leq 10^5 
+ 1 \leq Q \leq 10^5 
+ S  is a string of length  N . 
+ Each character in  S  is  A ,  C ,  G  or  T . 
+ 1 \leq l_i < r_i \leq N 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ N   Q 
+ S 
+ l_1   r_1 
+ : 
+ l_Q   r_Q 
+ 
+ 
+ 
+ 
+ 
+ Output Print  Q  lines. The  i -th line should contain the answer to the  i -th query. 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
+249,p02627.html,"
+ Problem Statement An uppercase or lowercase English letter  \alpha  will be given as input.
+If  \alpha  is uppercase, print  A ; if it is lowercase, print  a . 
+ 
+ 
+ 
+ 
+ Constraints 
+ \alpha  is an uppercase ( A  -  Z ) or lowercase ( a  -  z ) English letter. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Input Input is given from Standard Input in the following format: 
+ α 
+ 
+ 
+ 
+ 
+ 
+ Output If  \alpha  is uppercase, print  A ; if it is lowercase, print  a . 
+ 
+ 
+ 
+ 
+ 
+ 
+ "
