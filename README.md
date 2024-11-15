@@ -1,8 +1,11 @@
-# augmented-llm-coder
-A low-complexity LLM augmenting approach geared towards making a better Java coding assistant  
- 
-Provided are the jupyter notebooks used for the research, the best practices documents used to augment the model, as well as the CodeNet Project benchmarking problem descriptions, (Java250 folder), and the labeled results for code acceptance and their difficulty scores (Result_report_scores.csv).
+# Accessible and Reliable AI Coding Tutors: Augmenting Large Language Models with Retrieval-Augmented Generation for Java Programming
+This repository contains the complementary code and results for the paper submitted to EDUCON '25. The paper addresses the challenge of improving the reliability and accuracy of Large Language Models (LLMs) for assisting students in learning Java programming, a critical component of object-oriented computer science courses. While LLMs have shown promise in generating code, they often produce incorrect or unreliable outputs, which can hinder the learning process. To mitigate these issues, we propose a novel augmentation framework that integrates Retrieval-Augmented Generation (RAG), enabling LLMs to retrieve best-practice Java code examples from external sources to enhance the accuracy of generated solutions. We evaluate this framework using 250 Java coding tasks, covering a range of difficulties. Our findings show that the RAG-augmented model, when applied to a lightweight LLM (Google DeepMind’s Gemma), outperformed baseline model by 19\% for mid and high-difficulty problems. In particular, Augmented Gemma generated accepted code for 11 problems where no other model could provide a valid solution. This suggests that retrieving external best-practice examples is critical in addressing complex coding challenges. These results highlight the potential of lightweight, accessible models enhanced with RAG to provide reliable AI coding assistance in educational settings, facilitating both accurate problem-solving and reinforcement of best coding practices.
+
+Present is the implementation of the project, including the code used for training, evaluating, and benchmarking the models. This repository also includes the model's generated solutions to the 250 problems from the CodeNet dataset, as well as the detailed benchmarking results discussed in this paper. 
  
 ## HOW TO
-To run the RAG framework, clone the repository and go through the Loading.ipnyb file to create the embeddings vectorstore. You will need Ollama with the desired model downloaded as well as the Langchain libraries installed. 
-Once the Chroma vectorestore is created on your local, you can run any of the QA notebooks to invoke the models' responses to the Java problems.
+To run the RAG augmented framework on premise:
+- Clone the repository in your working device.
+- You will need Ollama with the desired model downloaded as well as the Langchain libraries installed. 
+- Run the Loading.ipnyb jupyter notebook file to create the embeddings vectorstore, which contains the context documents that will be retrieved.
+- Once the Chroma vectorestore is created on your local device, you can run any of the QA notebooks to invoke the models' responses to the Java problems.
